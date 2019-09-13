@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardCornerRadius="4dp"
+    android:layout_margin = "4dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginStart="4dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="4dp"
+            app:srcCompat="@android:drawable/presence_away" />
+
+        <TextView
+            android:id="@+id/textViewTitleSettlement"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="8dp"
+            android:layout_marginTop="4dp"
+            android:singleLine="true"
+            android:text="TITLE"
+            android:textColor="@android:color/black"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            tools:text="SETTLEMENT" />
+
+        <TextView
+            android:id="@+id/textViewSummaryCost"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewTitleSettlement"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="60dp"
+            android:layout_marginLeft="0dp"
+            android:layout_marginTop="8dp"
+            android:singleLine="true"
+            android:text="000000.00 PLN"
+            android:textColor="@android:color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewSettlementDate"
+            android:layout_width="140dp"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/textViewSummaryCost"
+            android:layout_alignLeft="@+id/textViewSummaryCost"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginStart="145dp"
+            android:layout_marginLeft="145dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="50dp"
+            android:layout_marginRight="50dp"
+            android:text="dd.mm.rrrr hh:mm"
+            android:textSize="12sp" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

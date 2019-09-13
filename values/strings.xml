@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">BFF = Bill for Friends</string>
+    <string name="title_activity_costs">CostsActivity</string>
+    <string name="tab_text_1">All open</string>
+    <string name="tab_text_2">Diagram</string>
+    <string name="tab_text_3">My wallet</string>
+    <string name="tab_text_4">Settled</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string name="snack_bar_undo">UNDO</string>
+    <string name="title_activity_AddItem">Add Item</string>
+    <string name="colors">Colors</string>
+    <string name="language">Language</string>
+    <string name="my_account">My Account</string>
+</resources>
